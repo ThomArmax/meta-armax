@@ -24,7 +24,7 @@ EXTRA_QMAKEVARS_PRE += "PREFIX=/usr"
 FILES_${PN} = "${libdir}"
 FILES_${PN}-dev = "${includedir} \
                    ${libdir}/libHUpnp.so \
-                   ${libdir}/libQtSolutions_SOAP-2.7.so \
+                   ${libdir}/libQtSolutions_SOAP.so \
                   "
 
 do_install () {
