@@ -1,0 +1,13 @@
+diff --git a/src/qtxb/qtxb.pro b/src/qtxb/qtxb.pro
+index 963fdd9..4ce175c 100644
+--- a/src/qtxb/qtxb.pro
++++ b/src/qtxb/qtxb.pro
+@@ -113,7 +113,7 @@ OTHER_FILES += \
+     qtxb.pri \
+ 
+ unix {
+-    target.path = /usr/lib/QtXBee
++    target.path = /usr/lib/
+ 
+     core_headers.path = /usr/include/QtXbee
+     core_headers.files = $$CORE_HEADERS
