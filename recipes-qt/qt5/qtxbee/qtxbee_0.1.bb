@@ -12,6 +12,7 @@ FILESEXTRAPATHS_append := "${THISDIR}/files"
 
 DEPENDS = "qtbase qtserialport"
 RDEPENDS_${PN} = "qtserialport qtdeclarative"
+RDEPENDS_${PN}-examples = "qtbase-fonts"
 
 SRC_URI = " \
     git://github.com/ThomArmax/QtXbee.git;protocol=http;branch=develop \
