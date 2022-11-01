@@ -24,4 +24,4 @@ IMAGE_INSTALL = "\
 inherit core-image
 
 # Add extra space to the rootfs image
-IMAGE_ROOTFS_EXTRA_SPACE_append += "+ 30000"
+IMAGE_ROOTFS_EXTRA_SPACE:append:qtxbee-demo-image += "+ 30000"
